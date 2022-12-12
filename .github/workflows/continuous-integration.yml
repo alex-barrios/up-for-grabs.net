@@ -46,7 +46,7 @@ jobs:
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb
 
-    fork-count-tests:
+    build:
       runs-on: ubuntu-latest
 
       steps:
