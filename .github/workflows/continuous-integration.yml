@@ -57,4 +57,4 @@ jobs:
           python-version: 3.9 #install the python needed
       - name: execute py script # run the run.py to get the latest data
         run: |
-          python3 tests/tests_fork_testUpdateForkCount.py
+          python3 tests/tests_fork_count/testUpdateForkCount.py
